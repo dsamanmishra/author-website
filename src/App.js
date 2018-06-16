@@ -18,12 +18,12 @@ class Header extends Component {
       <div className="col-sm-12">
         <h1 className="website-title">Vaibhav Lall</h1>
         <div className="col-sm-9">
-          <img className="image2" src="/images/pic2.jpg" />
-          <img className="image3" src="/images/pic3.jpg" />
-          <img className="image4" src="/images/pic4.jpg" />
+          <img className="image2" src="./images/pic2.jpg" />
+          <img className="image3" src="./images/pic3.jpg" />
+          <img className="image4" src="./images/pic4.jpg" />
         </div>
         <div className="col-sm-3">
-          <img className="image1" src="/images/pic1.jpg" />
+          <img className="image1" src="./images/pic1.jpg" />
         </div>
       </div>
     );
