@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import image1 from './images/pic1.jpg';
+import image2 from './images/pic2.jpg';
+import image3 from './images/pic3.jpg';
+import image4 from './images/pic4.jpg';
 import './App.css';
 
 class App extends Component {
@@ -15,16 +19,19 @@ class App extends Component {
 class Header extends Component {
   render() {
     return (
-      <div className="col-sm-12">
+      <div className="col-sm-12 red-thick-line">
         <h1 className="website-title">Vaibhav Lall</h1>
-        <div className="col-sm-9">
-          <img className="image2" src="./images/pic2.jpg" />
-          <img className="image3" src="./images/pic3.jpg" />
-          <img className="image4" src="./images/pic4.jpg" />
+        <div ClassName="row">
+          <div className="col-sm-9 fading-images">
+            <img className="image2" src={image2} />
+            <img className="image3" src={image3} />
+            <img className="image4" src={image4} />
+          </div>
+          <div className="col-sm-3">
+            <img className="image1" src={image1} />
+          </div>
         </div>
-        <div className="col-sm-3">
-          <img className="image1" src="./images/pic1.jpg" />
-        </div>
+        <div className="clearfix"></div>
       </div>
     );
   }
