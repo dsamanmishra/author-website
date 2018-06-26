@@ -1,8 +1,14 @@
+/*
 @font-face {
   font-family: "Typewriter";
-  src: url('/fonts/american_typewriter.eot') format('embedded-opentype'); /* IE9 */
-  src: url('/fonts/american_typewriter.ttf') format('truetype');
+  src: url('https://highape.com/images/american_typewriter.eot') format('embedded-opentype');
+  src: url('https://highape.com/images/american_typewriter.ttf') format('truetype');
 }
+*/
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+
 
 .App {
   text-align: center;
@@ -30,8 +36,18 @@
 
 .website-title{
   color: #999999;
-  font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;
-  font-size: 35px;
+  /*font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;*/
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 42px;
+  letter-spacing: .1em;
+  margin: 0 0 10px 0;
+  font-weight: 800;
+}
+
+.website-subtitle{
+  color: #6e6e6e;
+  font-family: arvo;
+  font-size: 13px;
   letter-spacing: .1em;
   margin: 0 0 30px 0;
   font-weight: 800;
@@ -246,9 +262,10 @@
 
 @media only screen and (max-width: 700px) {
   .menu-desktop-items {
-    font-family: Typewriter, arial, Garamond, Georgia, "Times New Roman", Times;
+    /*font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;*/
+    font-family: 'Goudy Bookletter 1911', serif;
     letter-spacing: .1em;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 100;
     text-shadow: 0px 0px 1px #ccc;
     color: #454545;
@@ -259,13 +276,14 @@
 
 @media only screen and (min-width: 701px) {
   .menu-desktop-items {
-    font-family: Typewriter, arial, Garamond, Georgia, "Times New Roman", Times;
+    /*font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;*/
+    font-family: 'Goudy Bookletter 1911', serif;
     letter-spacing: .1em;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 100;
     text-shadow: 0px 0px 1px #ccc;
     color: #454545;
-    margin-right: 20px;
+    margin-right: 90px;
     text-align: justify;
   }
 }
@@ -286,9 +304,10 @@
 }
 
 .about-title {
-  font-family: Typewriter, arial, Garamond, Georgia, "Times New Roman", Times;
+  /*font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;*/
+  font-family: 'Goudy Bookletter 1911', serif;
   letter-spacing: .1em;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 100;
   text-shadow: 0px 0px 1px #ccc;
   color: #454545;
@@ -296,10 +315,11 @@
 }
 
 .about-text {
-  font-family: Typewriter, arial, Garamond, Georgia, "Times New Roman", Times;
+  /*font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;*/
+  font-family: 'Goudy Bookletter 1911', serif;
   text-align: justify;
   color: #454545;
-  font-size: 18px;
+  font-size: 21px;
   letter-spacing: .1em;
   word-spacing: 1px;
 }
