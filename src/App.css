@@ -34,6 +34,11 @@
   font-size: large;
 }
 
+.remove-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .website-title{
   color: #999999;
   /*font-family: Typewriter, Garamond, Georgia, "Times New Roman", Times;*/
@@ -62,6 +67,12 @@
 
   .fading-images{
     position: relative;
+  }
+
+  .non-fading-images {
+    padding-right: 0px;
+    text-align: right;
+    text-align: center;
   }
 
   .image2{
@@ -110,6 +121,11 @@
     position: relative;
   }
 
+  .non-fading-images {
+    padding-right: 0px;
+    text-align: right;
+  } 
+
   .image2{
     height: 250px;
     position: absolute;
@@ -123,7 +139,7 @@
 
 
   .image3{
-    height: 250px;
+    height: 100%;
     position: absolute;
     right: 25%;
     -moz-animation: showHideAnimation2 10s;
@@ -249,10 +265,7 @@
   padding-left: 0px;
 }
 
-.non-fading-images {
-  padding-right: 0px;
-  text-align: right;
-}
+
 
 .menu-div {
   padding-left: 0px;
@@ -330,13 +343,13 @@
 
 @media only screen and (max-width: 700px) {
   .book-cover1 {
-    width: 160px;
+    width: 48%;
     text-align: left;
     float: left;
   }
 
   .book-cover2 {
-    width: 160px;
+    width: 48%;
     text-align: right;
     float: right;
   }

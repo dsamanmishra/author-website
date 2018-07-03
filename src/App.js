@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
-	      <div className="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+	      <div className="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 remove-padding">
 	        <Header />
 	        <Menu />
 	        <About />
@@ -33,8 +33,7 @@ class Header extends Component {
       <div className="col-md-12 col-sm-12 col-xs-12 red-thick-line">
         <h1 className="website-title">Vaibhav<br />Lall</h1>
         <h2 className="website-subtitle">Author. Blogger. Entreprenuer. Traveler. Nature Lover.</h2>
-        <div className="row">
-          <div className="col-md-9 col-sm-9 col-xs-12 fading-images">
+          <div className="col-md-9 col-sm-9 hidden-xs fading-images">
             <img className="image2" src={image2} />
             <img className="image3" src={image3} />
             <img className="image4" src={image4} />
@@ -42,7 +41,6 @@ class Header extends Component {
           <div className="col-md-3 col-sm-3 col-xs-12 non-fading-images">
            <img className="image1" src={image1} />
           </div>
-        </div>
         <div className="clearfix"></div>
       </div>
     );
