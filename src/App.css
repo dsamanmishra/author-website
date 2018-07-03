@@ -271,6 +271,7 @@
     color: #454545;
     margin-right: 20px;
     text-align: justify;
+    cursor: pointer;
   }
 }
 
@@ -285,6 +286,7 @@
     color: #454545;
     margin-right: 90px;
     text-align: justify;
+    cursor: pointer;
   }
 }
 
@@ -319,9 +321,9 @@
   font-family: 'Goudy Bookletter 1911', serif;
   text-align: justify;
   color: #454545;
-  font-size: 21px;
-  letter-spacing: .1em;
-  word-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: .08em;
+  word-spacing: 0.9px;
 }
 
 
@@ -378,6 +380,7 @@
   font-size: 13px;
   float: right;
   margin: 0 0 2px;
+  cursor: pointer;
 }
 
 .social-media-links-div{
