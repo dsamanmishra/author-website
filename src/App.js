@@ -15,7 +15,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="col-md-9 col-md-offset-1 col-sm-9 col-sm-offset-1 col-xs-12">
+      <div className="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
 	      <div className="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
 	        <Header />
 	        <Menu />

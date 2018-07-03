@@ -349,13 +349,13 @@
 
 @media only screen and (min-width: 701px) {
   .book-cover1 {
-    width: 200px;
+    width: 225px;
     text-align: left;
     float: left;
   }
 
   .book-cover2 {
-    width: 200px;
+    width: 225px;
     text-align: right;
     float: right;
   }
