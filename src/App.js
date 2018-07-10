@@ -95,8 +95,8 @@ class Footer extends Component {
   render() {
     return (
       <div className="col-md-12 col-sm-12 social-media-links-div">
-            <img className="social-media-links" src={fb} />
-            <img className="social-media-links" src={twitter} />
+            <a href="https://www.facebook.com/vaibhav.lall.9"><img className="social-media-links" src={fb} /></a>
+            <a href="https://twitter.com/vaibhavlall1"><img className="social-media-links" src={twitter} /></a>
             <a href="https://in.linkedin.com/in/vaibhav-lall-4091a9a2"><img className="social-media-links" src={insta} /></a>
       </div>
     );
